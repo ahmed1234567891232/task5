@@ -1,0 +1,26 @@
+.one{
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    box-shadow: 15px 10px 15px 10px rgb(209, 206, 206) inset;
+    position: absolute;
+    right: 50%;
+    border: 2px solid whitesmoke;
+    
+}
+
+
+
+:root{
+    --mainColor: #009688;
+    --mainPadding: 10px;
+}
+
+div{
+    color: var(--mainColor);
+    padding:var(--mainPadding) ;
+    border: 2px solid var(--mainColor);
+    margin: 10px;
+}
+
+
